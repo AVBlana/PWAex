@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home — My PWA",
+      "regions": [
+        {
+          "type": "hero",
+          "data": {
+            "headline": "Welcome to PWA Demo",
+            "image": "/images/hero.jpg"
+          }
+        },
+        {
+          "type": "cards",
+          "data": [
+            { "title": "Billing", "path": "/billing" },
+            { "title": "Usage", "path": "/usage" }
+          ]
+        }
+      ]
+    }
+  ]
+}
