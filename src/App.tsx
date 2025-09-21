@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { fetchPage } from "./api/cms";
 import ContentMapper from "./components/ContentMapper";
 import CookieConsent from "./components/CookieConsent";
+import { SearchUsers } from "./components/SearchUsers";
+import { PaginatedUsers } from "./components/PaginatedUsers";
 
 function App() {
   const [page, setPage] = useState<any>(null);
@@ -11,6 +13,8 @@ function App() {
 
   return (
     <div>
+      <SearchUsers />
+      <PaginatedUsers />
       {page ? <ContentMapper regions={page.regions} /> : <p>Loading...</p>}
       <CookieConsent />
     </div>

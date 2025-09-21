@@ -9,6 +9,7 @@ const Banner = styled.div`
   left: 12px;
   right: 12px;
   background: white;
+  color: black;
   padding: 12px 16px;
   border-radius: 8px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -45,6 +46,7 @@ export default function CookieConsent() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
+          color: "black",
         }}
       >
         <div>We use analytics to improve the site. Accept tracking?</div>

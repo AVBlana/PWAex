@@ -20,5 +20,13 @@
         }
       ]
     }
+  ],
+  "users": [
+    { "id": 1, "name": "Leanne", "email": "leanne@test.com" },
+    { "id": 2, "name": "Ervin", "email": "ervin@test.com" },
+    { "id": 3, "name": "Clementine", "email": "clementine@test.com" },
+    { "id": 4, "name": "Patricia", "email": "patricia@test.com" },
+    { "id": 5, "name": "Chelsey", "email": "chelsey@test.com" },
+    { "id": 6, "name": "Kurtis", "email": "kurtis@test.com" }
   ]
 }
